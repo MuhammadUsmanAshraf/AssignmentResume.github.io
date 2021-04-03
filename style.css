@@ -1,0 +1,218 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #080000;
+}
+
+#container {
+    height: 100vh;
+    width: 84%;
+    /* background-color: red; */
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#nav {
+    height: 86%;
+    min-width: 5%;
+    background: url(https://media.istockphoto.com/photos/white-wood-wall-texture-and-backgroud-picture-id1152859422?k=6&m=1152859422&s=612x612&w=0&h=nraMn8vPdiC9gfFq0ls8UtNPL_S6dxk2DGHnqq58E3E=);
+    float: left;
+    position: relative;
+    top: 7%;
+    bottom: 7%;
+}
+
+#pic {
+    height: 100%;
+    min-width: 30%;
+    background-image: url(https://n.foxdsgn.com/niko/black/wp-content/uploads/sites/4/2019/03/niko_img.jpg);
+    background-size: cover;
+    float: left;
+}
+
+#semicontainer {
+    width: 65%;
+    min-height: 86%;
+    /* background-color: chocolate; */
+    background: url(https://images.unsplash.com/photo-1550684376-efcbd6e3f031?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fGJsYWNrJTIwdGV4dHVyZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
+    position: relative;
+    top: 7%;
+    bottom: 7%;
+    float: right;
+}
+
+.menuicon {
+    height: 10%;
+    width: 100%;
+    background-color: #00c483;
+    color: white;
+    font-size: 22px;
+    line-height: 50.4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menuicon:hover {
+    background-color: #08b37a;
+    font-size: 26px;
+}
+
+.menuicon:active {
+    background-color: #069465;
+    font-size: 26px;
+}
+
+#menu {
+    height: 80%;
+    width: 100%;
+}
+
+#icon {
+    height: 60%;
+    width: 100%;
+    position: relative;
+    top: 20%;
+    bottom: 20%;
+}
+
+.semimenu {
+    height: 20%;
+    width: 100%;
+    color: rgb(167, 160, 160);
+    font-size: 26px;
+    line-height: 50.4px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+
+.semimenu:hover {
+    color: #00c483;
+}
+
+.semimenu:active {
+    color: #098d61;
+}
+
+#cloud {
+    height: 10%;
+    width: 100%;
+    background-color: darkslateblue;
+}
+
+h1 {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 900;
+}
+
+h4 {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.dev {
+    color: #00c483;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin: 5px 0px 5px 0px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 50px;
+}
+
+li {
+    display: inline;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
+
+#picdata {
+    height: 30%;
+    width: 100%;
+    position: relative;
+    top: 70%;
+    text-align: center;
+}
+
+.fa-facebook-f:hover {
+    color: #1773EA
+}
+
+.fa-twitter:hover {
+    color: #5EA9DD;
+}
+
+.fa-instagram:hover {
+    color: #CE2897;
+}
+
+.fa-linkedin-in:hover {
+    color: #007BB6
+}
+
+#about {
+    height: 30%;
+    width: 90%;
+    /* background-color: #1773EA; */
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 4%;
+}
+
+.line {
+    color: gray;
+    font-weight: 100;
+}
+
+hr {
+    margin-top: 4%;
+    border-top: 1px solid gray;
+}
+
+#services {
+    /* background-color: indigo; */
+    height: 59%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.servicedata {
+    height: 39%;
+    width: 49%;
+    /* background-color: lawngreen; */
+    float: left;
+    color: #00c483;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 1%;
+}
+
+h4+p {
+    font-size: 15px;
+    color: gray;
+    margin-top: 5px;
+}
+
+.margin {
+    margin-bottom: 4%;
+}
